@@ -1,9 +1,12 @@
 import React from 'react'
-import Counts from './containers/counts'
+// import Counts from './containers/counts'
+import Countreducer from './components/reducer'
 export default function App() {
   return (
     <h1 className="text-3xl font-bold underline">
-      <Counts />
+      <Countreducer />
+
+      {/* <Counts /> */}
     </h1>
   )
 }
